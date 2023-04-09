@@ -555,7 +555,7 @@ margin-bottom: 72px;
     background-color: #FCFCFC;
     border-radius: 4px;
     padding: 24px;
-    
+ 
 }
 
 .backdrop.is-hidden .modal {
@@ -565,14 +565,22 @@ margin-bottom: 72px;
 
 .modal-close {
    position: absolute;
+   width: 24px;
+   height: 24px;
    top: 24px;
    right: 24px;
    background: #E7E9FC;
    border: 1px solid rgba(0, 0, 0, 0.1);
    border-radius: 50%;
-   transform: translate(-50%, -50%);
-   
-    
+
+}
+
+.icon-close-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 
