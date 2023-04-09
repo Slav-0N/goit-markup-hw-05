@@ -526,7 +526,7 @@ margin-bottom: 72px;
 
 }
 
-/** ----------------- *** Modal *** -----------------------*/
+/** ----------------- *** Modal *** ----------------*/
 
 .backdrop {
     position: fixed;
@@ -570,6 +570,8 @@ margin-bottom: 72px;
    background: #E7E9FC;
    border: 1px solid rgba(0, 0, 0, 0.1);
    border-radius: 50%;
+   transform: translate(-50%, -50%);
+   
     
 }
 
